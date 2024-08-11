@@ -1,0 +1,27 @@
+.items{
+    text-align: right;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+body{
+    background-image: url('externalizacion-TI.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espacio alrededor del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+#Sobre_mi{
+    border: 2px solid black; /* Borde sólido de 2px de ancho y color negro */
+    padding: 10px; /* Espaciado interior alrededor del texto */
+    width: 300px; /* Ancho del contenedor del texto */
+    margin-right: 20%;
+    margin-left: 10%;
+}
+h2.titulo{
+    background-color: blue;
+    color: white;
+}
+a{
+    color: wheat
+}
