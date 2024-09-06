@@ -1,27 +1,90 @@
-.items{
-    text-align: right;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-body{
+/* Estilos Generales */
+body {
     background-image: url('externalizacion-TI.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-    color: white; /* Color del texto */
-    padding: 20px; /* Espacio alrededor del texto */
-    text-align: center; /* Centra el texto horizontalmente */
-    color: black;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black; 
+    padding: 20px; 
+    text-align: center; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
 }
-#Sobre_mi{
-    border: 2px solid black; /* Borde sólido de 2px de ancho y color negro */
-    padding: 10px; /* Espaciado interior alrededor del texto */
-    width: 300px; /* Ancho del contenedor del texto */
-    margin-right: 20%;
-    margin-left: 10%;
+
+.items {
+    text-align: right; /* Alinear enlaces de navegación a la derecha */
+    margin-bottom: 20px; 
 }
-h2.titulo{
-    background-color: blue;
-    color: white;
+
+.items a {
+    color: wheat; 
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    margin-left: 10px; 
+    display: inline-block; /* Mantener los enlaces en una línea */
 }
-a{
-    color: wheat
+
+/* Estilos de Secciones */
+#Sobre_mi, #Proyectos, #Contacto {
+    border: 2px solid black; 
+    padding: 10px; 
+    margin: 20px auto; 
+    width: 80%; 
+}
+
+h1, h2 {
+    margin: 10px 0; 
+}
+
+h2.titulo {
+    background-color: blue; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    body {
+        background-image: url('image 1.png'); 
+    }
+    
+    #Sobre_mi, #Proyectos, #Contacto {
+        width: 90%; 
+        text-align: center; 
+        margin: auto;
+    }
+
+    .items {
+        text-align: right; 
+        margin-bottom: 30px; 
+    }
+
+    .items a {
+        display: block; 
+        margin-bottom: 10px; 
+        display: inline-block; 
+    }
+
+    img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 667px) {
+    body {
+        background-image: url('image 2.png'); 
+        background-position: 0%;
+        background-size: cover;
+    }
+    .items a {
+        display: block; 
+        margin-bottom: 10px;
+        display: inline-block; 
+        text-align: right;
+    }
 }
