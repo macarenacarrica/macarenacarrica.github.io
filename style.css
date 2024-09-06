@@ -50,11 +50,14 @@ img {
 /* Diseño Responsivo */
 @media (max-width: 768px) {
     body {
-        background-image: url('image 1.png'); 
+        background-image: url('iPad\ mini\ 5\ -\ 1.png'); 
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     
     #Sobre_mi, #Proyectos, #Contacto {
-        width: 90%; 
+        width: 100%; 
         text-align: center; 
         margin: auto;
     }
@@ -69,11 +72,7 @@ img {
         margin-bottom: 10px; 
         display: inline-block; 
     }
-
-    img {
-        max-width: 100%; 
     }
-}
 
 @media (max-width: 667px) {
     body {
