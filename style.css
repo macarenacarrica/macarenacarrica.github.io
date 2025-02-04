@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4B0082, #8A2BE2, #00CED1);
+    color: #fff;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.navbar {
+    background-color: rgba(75, 0, 130, 0.9) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #00CED1 !important;
+}
+
+.bg-light {
+    background-color: rgba(138, 43, 226, 0.8) !important;
+}
+
+a {
+    color: #00CED1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4B0082;
+}
+
+.perfil-img {
+    width: 150px; /* Tamaño ajustable */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+    margin-bottom: 15px;
+    border: 3px solid #00CED1; /* Borde en tono verde agua */
+}
